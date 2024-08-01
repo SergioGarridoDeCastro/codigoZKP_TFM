@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "proof",
+						"type": "bytes"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "pubSignals",
+						"type": "uint256[]"
+					}
+				],
+				"name": "verifyProof",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/zkp_sql.sol": "IVerifier"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/zkp_sql.sol": {
+			"keccak256": "0x6eee7093d9cfcd1b441c12c56e3bc829b9bb1928422f22bd812f01b6e1fd7fd0",
+			"license": "GPL-3.0-or-later",
+			"urls": [
+				"bzz-raw://0a2f4ed0dd98bda93bef3a50bb726e2105e3948a70a4231dfbb14eb983f524bd",
+				"dweb:/ipfs/QmeqesKnU2wHGEWnDJx96j92nSHUSMHZQ3JgXz5xa63Tac"
+			]
+		}
+	},
+	"version": 1
+}

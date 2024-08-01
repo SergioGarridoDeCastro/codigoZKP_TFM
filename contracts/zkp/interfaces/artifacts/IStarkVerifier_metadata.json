@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/zkp/interfaces/interface_verifier_stark.sol": "IStarkVerifier"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/zkp/interfaces/interface_verifier_stark.sol": {
+			"keccak256": "0x53d8ca3b552622b969229c47572f22cec503d327e0ed3fa7503ba4579fd005d6",
+			"license": "Apache-2.0.",
+			"urls": [
+				"bzz-raw://1d11335a4176bd2da6852980146496731b28c62da169a4b276eb79125469db74",
+				"dweb:/ipfs/Qma2f3nJNK8ZrCY1LsdAZWKGyUicKPyfw7obQMqGiuSv4H"
+			]
+		}
+	},
+	"version": 1
+}

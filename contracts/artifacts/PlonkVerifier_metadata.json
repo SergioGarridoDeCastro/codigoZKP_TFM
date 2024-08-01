@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "proof",
+						"type": "bytes"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "pubSignals",
+						"type": "uint256[]"
+					}
+				],
+				"name": "verifyProof",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/selectVerifier.sol": "PlonkVerifier"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/selectVerifier.sol": {
+			"keccak256": "0x5f06b6937dace37f9d9346204d6c9dd8a4a0924511f6ef099f316be17a25e285",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://4f9e408bcf8ce66489d287f7eab178681e25e60e6b79a474ad7063497e9abd01",
+				"dweb:/ipfs/QmUBhGjTMvYCdWNJtUVF6aErdLU8n8eaRuS2ESqV7tGrkk"
+			]
+		}
+	},
+	"version": 1
+}
