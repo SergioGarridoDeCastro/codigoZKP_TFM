@@ -1,0 +1,139 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "verifierAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "isVerified",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "users",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "email",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "country",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[24]",
+						"name": "proof",
+						"type": "uint256[24]"
+					},
+					{
+						"internalType": "uint256[1]",
+						"name": "pubSignals",
+						"type": "uint256[1]"
+					}
+				],
+				"name": "verifyIdentity",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/zkp/verifier_plonk.sol": "IdentityVerificationPlonk"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"/zk/build/plonk/zk_verifier.sol": {
+			"keccak256": "0x5d681442a1323413af89617e2e06b809db9c37e6798ae42504810bd2a3caa233",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://16a1b06358389b90f67e1f6779a4ab00bcf052a1d06f6e156de12b8dcc3aadbf",
+				"dweb:/ipfs/QmZe4mhbstdk58LfAwzwQ32DNDUgAx2udhpFPJW9yp2SQU"
+			]
+		},
+		"contracts/zkp/verifier_plonk.sol": {
+			"keccak256": "0x92a093970d81dcbeab62b59440fc67f470ffe80b2934cdbf2cd351481c82081f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b6950eeae6bacad0fdc88aff0960593ec03ba06f34c3a325ecaae63aa6f55bd4",
+				"dweb:/ipfs/QmdBEquEuAriowokGmh6T5SzmnHLBiKBFQeX2EPavXUNMb"
+			]
+		},
+		"hardhat/console.sol": {
+			"keccak256": "0x7434453e6d3b7d0e5d0eb7846ffdbc27f0ccf3b163591263739b628074dc103a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://49355f780520494d1d5a0f01858385e51bb5280ce0ecfb960f16995065dca395",
+				"dweb:/ipfs/QmSwJ6C5QLz6xKeQZS8wbwjU1KxRFTYfwbGmtzisd5sRW4"
+			]
+		}
+	},
+	"version": 1
+}

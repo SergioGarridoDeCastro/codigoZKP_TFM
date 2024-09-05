@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[2]",
+						"name": "_pA",
+						"type": "uint256[2]"
+					},
+					{
+						"internalType": "uint256[2][2]",
+						"name": "_pB",
+						"type": "uint256[2][2]"
+					},
+					{
+						"internalType": "uint256[2]",
+						"name": "_pC",
+						"type": "uint256[2]"
+					},
+					{
+						"internalType": "uint256[1]",
+						"name": "_pubSignals",
+						"type": "uint256[1]"
+					}
+				],
+				"name": "verifyProof",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"zk/build/groth16/zk_verifier.sol": "Groth16Verifier"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"zk/build/groth16/zk_verifier.sol": {
+			"keccak256": "0xd900f5e3c8848b5cdcd668b48a93029b3caa1c28559d1e0107d74d8ae0d4dd84",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://a0287e96efa69ff588803ef12d6d78324159fc175813003edbdf997ab6491daf",
+				"dweb:/ipfs/QmSK44MTBqCgfJ5X48bYojdQCb4xJDyQBCyLQTEVV46YZh"
+			]
+		}
+	},
+	"version": 1
+}

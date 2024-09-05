@@ -1,0 +1,129 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "isVerified",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "users",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "email",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "country",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[2]",
+						"name": "a",
+						"type": "uint256[2]"
+					},
+					{
+						"internalType": "uint256[2][2]",
+						"name": "b",
+						"type": "uint256[2][2]"
+					},
+					{
+						"internalType": "uint256[2]",
+						"name": "c",
+						"type": "uint256[2]"
+					},
+					{
+						"internalType": "uint256[3]",
+						"name": "input",
+						"type": "uint256[3]"
+					}
+				],
+				"name": "verifyIdentyty",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/zero-knowledge-proof.sol": "IdentityVerification"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"/verifier.sol": {
+			"keccak256": "0x3bb9138e0a58af759b4a11676342d086eab8c7de1949f2a96512ef5a13e9a9cf",
+			"urls": [
+				"bzz-raw://bfb12d1bf912a547ef09a9b3b98c6042f56e7a381b1dce8a2ffb7299bf3a468c",
+				"dweb:/ipfs/QmWDEsSxbBHCgd5shFgpiuiF23ZYK4wpQLtWYavqgvzDQ5"
+			]
+		},
+		"contracts/zero-knowledge-proof.sol": {
+			"keccak256": "0xdf815a68263a4bac115b816deca087dbed1244fc0233e2b4451c74b550f65ea7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a96c0817f1253219fb1bd21e7db86089576dbc75e4be82cbd16f9fb2519cde13",
+				"dweb:/ipfs/QmTSpTdpky9nCRLSQvfhkoianS7dzoFPvFnFeCcpzd6t4D"
+			]
+		}
+	},
+	"version": 1
+}

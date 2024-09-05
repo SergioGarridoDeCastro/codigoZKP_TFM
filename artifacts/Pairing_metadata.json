@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"verifier.sol": "Pairing"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"verifier.sol": {
+			"keccak256": "0x685f806c36ad54090653bb34ff91b3ce93db8563ff2549d6884600ad10e44aa9",
+			"license": "UNLICENSEDs",
+			"urls": [
+				"bzz-raw://c2aa2e60d1f395d324302a38fd817fefc8a405c0dee71a7ed1ebdfcb0d9c16bb",
+				"dweb:/ipfs/QmPawBykAq3AkEoBD1j91SkM4XpWxT9yAarpezj2rLTULD"
+			]
+		}
+	},
+	"version": 1
+}

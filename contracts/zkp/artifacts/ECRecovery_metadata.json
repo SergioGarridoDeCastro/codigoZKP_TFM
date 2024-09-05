@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/zkp/stark-verifier.sol": "ECRecovery"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/zkp/stark-verifier.sol": {
+			"keccak256": "0xf8c8e673d0053f4a9d0ab64617012d368818de2693742995a2e5fcbac1b2a7fc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://32cf4fa3427841612636c680e9079a81c9099c6f75cb8ca5b4430a85a67f46f1",
+				"dweb:/ipfs/QmS9sMXqhCdNumcHfKJmP5BKXWdUVWqZzVJRgSEbGGwQps"
+			]
+		}
+	},
+	"version": 1
+}

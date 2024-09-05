@@ -1,0 +1,46 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"title": "Elliptic Curve Library** @dev Library providing arithmetic operations over elliptic curves.** This library does not check whether the inserted points belong to the curve** `isOnCurve` function should be used by the library user to check the aforementioned statement.** @author Witnet Foundation",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/zkp/EllipticCurve.sol": "EllipticCurve"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/zkp/EllipticCurve.sol": {
+			"keccak256": "0x4de8895c948cfd53ea57d0f33acfc3f176909d0359118fe3221f1645c3839f01",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e8f855c416477260fd79f28e6528b425bf78b31ca90fc4dd9e696a3892adaa2e",
+				"dweb:/ipfs/QmeqzZcBxfrJm893sAzaWuBrcQLrnDo2iGmDHdGQYXDDK1"
+			]
+		}
+	},
+	"version": 1
+}
